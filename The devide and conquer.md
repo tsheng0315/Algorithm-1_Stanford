@@ -1,8 +1,8 @@
-### The devide and conquer 
+#### The devide and conquer 
 1. Devide into small problems
 2. Conquer via recoursive calls
 
-Eg1: **Find number of inversion pairs in an array:**
+### Eg1: Find number of inversion pairs in an array:
 
 1. **Brute Force**: O(n^2) time
 
@@ -31,7 +31,13 @@ c. directly combine sorted X and sorted Y into Z--> get number of inversions in 
 
 d. number of inversion pairs= x+y+y
 
+### Eg2: Find cloest dots
 
+**1D**:
+1. sort dots(  O(n log n) )
+2. find closet dots ( O(n) )
 
-  
+**2D:**
+1. p_X/p_Y for points in x/y coordinate,
+2. sort p_X/p_Y--> p_x/p_y  **O(n log n)**
 
