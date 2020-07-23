@@ -24,8 +24,11 @@ inversion pair (i,j)
 * spilt version: if i < N/2 < j
 
 a. devide array into two parts (X,Y)--> get number of inversions in X and Y--> x and y
+
 b. sort X and Y separately
+
 c. directly combine sorted X and sorted Y into Z--> get number of inversions in Z-->z
+
 d. number of inversion pairs= x+y+y
 
 
